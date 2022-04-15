@@ -21,7 +21,7 @@ p {
 
 .logo {
   margin: auto;
-  width: 45%;
+  width: 50%;
   z-index: 99;
 }
 
@@ -32,6 +32,10 @@ p {
 }
 .parallax-container .section {
   width: 100%;
+}
+#pPic {
+  width: 80%;
+  height: min-content;
 }
 
 @media only screen and (max-width: 992px) {
