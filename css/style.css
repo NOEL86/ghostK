@@ -37,6 +37,9 @@ p {
   width: 80%;
   height: min-content;
 }
+#whiteSpace {
+  height: 200px;
+}
 
 @media only screen and (max-width: 992px) {
   .parallax-container .section {
