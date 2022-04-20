@@ -20,9 +20,10 @@ p {
 }
 
 .logo {
-  margin: auto;
-  width: 50%;
+  width: 40%;
   z-index: 99;
+  margin-top: 0;
+  padding-bottom: 20%;
 }
 
 .parallax-container {
@@ -35,7 +36,7 @@ p {
 }
 #pPic {
   width: 80%;
-  height: min-content;
+  opacity: 0.5;
 }
 #whiteSpace {
   height: 200px;
