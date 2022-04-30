@@ -13,6 +13,10 @@ nav .brand-logo {
 
 p {
   line-height: 2rem;
+  font-family: 'Noticia Text', serif;
+}
+h4 {
+  font-family: 'Noticia Text', serif;
 }
 
 .sidenav-trigger {
@@ -23,7 +27,10 @@ p {
   width: 40%;
   z-index: 99;
   margin-top: 0;
-  padding-bottom: 20%;
+  padding-top: 15%;
+}
+#topRow {
+  margin-bottom: 0;
 }
 
 .parallax-container {
@@ -45,6 +52,18 @@ p {
 #more2,
 #more3 {
   display: none;
+}
+
+#myBtn1,
+#myBtn2,
+#myBtn3 {
+  background-color: white;
+  border: none;
+}
+#tagline {
+  color: white;
+  margin-top: 0;
+  padding-bottom: 25%;
 }
 @media only screen and (max-width: 992px) {
   .parallax-container .section {
