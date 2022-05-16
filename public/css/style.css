@@ -26,7 +26,7 @@ h4 {
   height: auto;
 }
 .parallax-container .section {
-  width: 100%;
+  /* width: 100%; */
 }
 #pPic {
   width: 80%;
@@ -63,10 +63,29 @@ h4 {
   }
 }
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 650px) {
   #index-banner .section {
     top: 0;
   }
+  .logo {
+    padding-top: 0;
+    width: 300px !important;
+    z-index: 1;
+    position: absolute;
+    top: -16;
+    left: 35px;
+  }
+  #tagline {
+    margin-bottom: 200px;
+    z-index: 3;
+    position: relative;
+    top: 198px;
+  }
+
+  .parallax-container {
+    height: 350px;
+  }
+
 }
 
 .icon-block {
