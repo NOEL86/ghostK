@@ -11,10 +11,10 @@ h4 {
 }
 
 .logo {
-  width: 40%;
+  width: 50%;
   z-index: 99;
   margin-top: 0;
-  padding-top: 15%;
+  padding-top: 10%;
 }
 #topRow {
   margin-bottom: 0;
@@ -53,7 +53,9 @@ h4 {
 #tagline {
   color: white;
   margin-top: 0;
-  padding-bottom: 35%;
+  /* padding-bottom: 35%; */
+  position: relative;
+  top: -90px;
 }
 @media only screen and (max-width: 992px) {
   .parallax-container .section {
