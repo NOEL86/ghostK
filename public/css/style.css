@@ -30,7 +30,10 @@ h4 {
 }
 #pPic {
   width: 80%;
-  opacity: 0.5;
+}
+
+#secondPic {
+ min-height: 450px;
 }
 #whiteSpace {
   height: 200px;
